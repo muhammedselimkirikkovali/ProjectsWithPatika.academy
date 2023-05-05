@@ -1,0 +1,28 @@
+/* Sitenin Ortalı Olması */
+body {
+    text-align: center;
+}
+/* Başlık 1 rengi*/
+h1 {
+    color: #1B2430 ;
+}
+/* Başlık 2 rengi*/
+h2 {
+    color: #51557E;
+}
+
+a {
+    color:rgba(255, 0, 0, 0.411) ;
+}
+li {
+    color: #816797;
+}
+
+#second-article {
+    color:rgb(112, 112, 93)
+}
+
+.left {
+    text-align: left;
+}
+
