@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #eef0f3;
+  min-height: 100vh;
+  color: rgb(27, 22, 22);
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d4dde9;
+}
+
+img {
+  width: 50px;
+}
