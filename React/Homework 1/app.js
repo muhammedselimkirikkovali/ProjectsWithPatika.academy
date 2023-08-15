@@ -11,7 +11,7 @@ async function getData(userId) {
   );
 
   console.log("userId: ", user, "posts: ", posts);
-  return user, posts;
+  return { user, posts };
 }
 getData(1);
 
