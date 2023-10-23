@@ -1,0 +1,141 @@
+/* add css module styles here (optional) */
+
+.primary {
+  font-size: 15px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background: dodgerblue;
+  color: white;
+  border-radius: 6px;
+}
+
+.primary:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.primary:active {
+  transform: translate(0em, 0.2em);
+}
+
+.default {
+  background-color: #ffff;
+  font-size: 15px;
+  padding: 0.5em 2em;
+  border: 0.15em solid #cccccc;
+  color: rgb(53, 48, 48);
+  border-radius: 6px;
+}
+.default:focus {
+  color: #171e29;
+}
+
+.default:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.default:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .default {
+    min-width: 170px;
+  }
+}
+
+.dashed {
+  background-color: #ffff;
+  font-size: 15px;
+  padding: 0.5em 2em;
+  border: 0.15em solid #cccccc;
+  color: rgb(53, 48, 48);
+  border-radius: 6px;
+  border-style: dashed;
+}
+.dashed:focus {
+  color: #171e29;
+}
+
+.dashed:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.dashed:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .dashed {
+    min-width: 170px;
+  }
+}
+
+.text {
+  background-color: #ffff;
+  font-size: 15px;
+  padding: 0.6em 2em;
+  border: none;
+  color: rgb(53, 48, 48);
+}
+.text:focus {
+  color: #171e29;
+}
+
+.text:hover {
+  color: #06f;
+  fill: #06f;
+  background-color: rgb(230, 235, 243);
+  border-radius: 6px;
+}
+
+.text:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .text {
+    min-width: 170px;
+  }
+}
+
+.link {
+  background-color: #ffff;
+  font-size: 15px;
+  padding: 0.6em 2em;
+  border: none;
+  color: #06f;
+}
+.link:focus {
+  color: #171e29;
+}
+
+.link:hover {
+  color: rgb(170, 203, 253);
+  fill: #06f;
+}
+
+.link:active {
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .link {
+    min-width: 170px;
+  }
+}
